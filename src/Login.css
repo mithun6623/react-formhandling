@@ -1,0 +1,15 @@
+.login-child{
+    text-align: center;
+    background-color: azure;
+    box-shadow: 0 0 5px;
+    padding: 10px;
+}
+
+.login-conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}

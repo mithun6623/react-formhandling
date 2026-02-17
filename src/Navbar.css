@@ -1,0 +1,26 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 10px 20px;
+    box-shadow: 0 0 5px;
+
+}
+
+
+.nav-links ul{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    text-decoration: none;
+}
