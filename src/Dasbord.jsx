@@ -2,10 +2,39 @@ import React from 'react'
 
 const Dasbord = () => {
   return (
-    <div>
-        <h1>Dasbord</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse mollitia non assumenda ab. Totam soluta veritatis labore aut beatae vitae debitis. Voluptatum, nostrum. Iure corrupti omnis eos ipsum quod? Blanditiis praesentium, inventore ipsum ipsa ullam, doloremque pariatur nostrum quidem quisquam beatae minima perspiciatis culpa officia optio id eligendi? Adipisci, nulla.</p>
-    </div>
+    <main className="dashboard">
+      <section className="dashboard-header">
+        <h1>Dashboard</h1>
+        <p className="subtitle">
+          Welcome back! Here is an overview of your account activity.
+        </p>
+      </section>
+
+      <section className="dashboard-content">
+        <article className="card">
+          <h2>Profile Overview</h2>
+          <p>
+            Manage your account details, update personal information,
+            and track your recent activities.
+          </p>
+        </article>
+
+        <article className="card">
+          <h2>Recent Activity</h2>
+          <p>
+            Stay updated with your latest actions and system notifications.
+          </p>
+        </article>
+
+        <article className="card">
+          <h2>Security Settings</h2>
+          <p>
+            Review your password and account protection settings to ensure
+            maximum security.
+          </p>
+        </article>
+      </section>
+    </main>
   )
 }
 
